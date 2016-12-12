@@ -22,6 +22,8 @@ Cloudera Manager will be started instead of running
 
 I was not able to get a stable environment on my laptop.
 
+Anyway you can try it:
+
     $ docker-compose up -d
 
 
