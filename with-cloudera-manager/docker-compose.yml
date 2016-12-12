@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+    cloudera:
+        build: .
+        container_name: cloudera
+        privileged: true
+        hostname: quickstart.cloudera
+        stdin_open: true
+        tty: true
+        ports:
+            - "7180:7180"
+            - "8888:8888"
